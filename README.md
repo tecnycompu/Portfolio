@@ -25,7 +25,7 @@ To deploy this project run
 
 ## Authors
 
-- [@ingDavidRivera]([https://github.com/ingDavidRivera])
+- [@ingDavidRivera](https://github.com/ingDavidRivera)
 
 
 ## Badges
