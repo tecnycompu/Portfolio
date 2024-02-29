@@ -25,7 +25,7 @@ To deploy this project run
 
 ## Authors
 
-- [@octokatherine](https://www.github.com/octokatherine)
+- [@ingDavidRivera]([https://github.com/ingDavidRivera])
 
 
 ## Badges
