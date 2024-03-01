@@ -5,6 +5,9 @@ const page = () => {
   return (
     <div> 
       {/* background image */}Projects
+      <CardProject
+      
+      />
     </div>
     // projects cards import 
   )
