@@ -1,44 +1,54 @@
 // Link, Redes sociales, imágenes
-import React from 'react'
-import { SocialMedia } from '../../../constants'
-import Link from 'next/link'
+import React from "react";
+import { SocialMedia } from "../../../constants";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className='fixed-top-0 w-full h-full flex'>
-        <div className='flex flex-row gap-3 items-center'>
+    <div className="fixed-top-0 w-full h-full flex">
+      <div className="flex flex-row gap-3 items-center">
+        <div>
+          {/*
 
-            {/* <Link href = "/">
-                <h1 className='text-black'> Portfolio</h1>
-            </Link> */}
-            Coming soon. . . Site under construction
+            <image
+              src="/favicon.ico"
+              alt="logo"
+              width={}
+              height={}
+              className='w-full h-full'
+              />
+            */}
+            
         </div>
 
-          {/*secciones*/}
-          <div className='absolute flex flex-col'>
-            <Link
-            href="/skills"
-            className='text-lg'
-            //My projects
-            />
-           </div>
+        <h1 className="text-white"> Welcome to my page</h1>
+      </div>
 
-        {/*redes sociales*/}
+      {/*secciones*/}
+      <div className="absolute flex flex-col">
+        <Link
+          href="/skills"
+          className="text-lg"
+          //My projects
+        />
+      </div>
 
-        <div className='flex flex-row'>
+      {/*redes sociales*/}
+
+      <div className="flex flex-row">
         {SocialMedia.map((social) => (
           <img
             key={social.name}
             src={social.src}
             alt={social.name}
             width={60}
-            height={60} 
+            height={60}
           />
         ))}
       </div>
-      
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

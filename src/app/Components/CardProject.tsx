@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardProject = () => {
   return (
-    <div>
+   
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
@@ -48,7 +48,7 @@ const CardProject = () => {
           </div>
         </div>
       </section>
-    </div>
+   
   )
 }
 
